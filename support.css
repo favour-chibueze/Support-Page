@@ -41,11 +41,7 @@ body {
 .nav-pill{
   color:white;
 }
-.navbar-logo{
-margin-top: -70px;
-  align-content: middle;
-  display: flex;
-}
+
 .ptabs a{
   color:#fff;
  text-decoration: none;
@@ -158,7 +154,7 @@ i {
 .panel-group .panel {
   border-radius: 0;
   box-shadow: none;
-  border-bottom-color: black;
+  border: none;
   margin-right: 30px;
 }
 
@@ -168,6 +164,8 @@ i {
   color: #212121;
   background-color: #FAFAFA;
   border-color: #EEEEEE;
+  color: black;
+}
 }
 
 .panel-title {
