@@ -34,21 +34,34 @@ body {
 .tabs-pills {
   background-color: #3684eb;
   color: white;
-  padding: 5em;
+  padding: 25px;
   padding-bottom: 0;
   border-bottom: none;
 }
 .nav-pill{
   color:white;
 }
-.navbar-logo{
-margin-top: -70px;
-  align-content: middle;
-  display: flex;
+.nav-pill:hover{
+background-color: white;
+color: black;
 }
+.nav-pill:active{
+  background-color: white;
+  color: black;
+  }
+  
 .ptabs a{
   color:#fff;
  text-decoration: none;
+}
+
+.contact{
+  margin-top: -2em;
+}
+.img-container-block {
+  text-align: center;
+margin-top: -3em;
+margin-left: 25em;
 }
 
 /* HERO SECTION */
@@ -158,7 +171,7 @@ i {
 .panel-group .panel {
   border-radius: 0;
   box-shadow: none;
-  border-bottom-color: black;
+  border: none;
   margin-right: 30px;
 }
 
@@ -166,9 +179,10 @@ i {
   padding: 0;
   border-radius: 0;
   color: #212121;
-  background-color: #FAFAFA;
-  border-color: #EEEEEE;
+  border-bottom: 1px solid black;
+  color: black;
 }
+
 
 .panel-title {
   font-size: 14px;
@@ -181,6 +195,9 @@ i {
   color: black;
 }
 
+.panel-list {
+  border-bottom: 1px solid black; 
+}
 .panel-title > a:hover{
   color:goldenrod;
 }
@@ -225,6 +242,7 @@ padding-bottom: 60px;
   background: #3684eb;
   height: fit-content;
   margin-left: 0px;
+  margin-right: 0;
   margin-top: 560px;
 }
 .eclipse2 {
@@ -292,6 +310,20 @@ a:hover {
   color: #fff;
 }
 
+.icon-color {
+color: black;
+font-size: 30px;
+}
+
+.para2 {
+  margin-left: 15px;
+  font-size: 1.5em;}
+.para2 a{
+text-decoration: none;
+}
+.para2 a:hover{
+  color: black;
+  }
 /* RESPONSIVENESS */
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
